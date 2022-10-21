@@ -1,0 +1,43 @@
+@media screen {
+  .req {
+    max-width: 500rem;
+    margin: 0 auto;
+    padding: 20rem 10rem;
+    border: 1px solid #ccc;
+    box-shadow: 2rem 2rem 2rem #ccc;
+    background-color: #fff;
+  }
+}
+
+.req > * {
+  margin: 0 0 8rem 0;
+}
+
+.req--rule {
+  margin: 4rem 0;
+}
+
+.req--title {
+  text-transform: uppercase;
+  display: inline-flex;
+  gap: 8rem;
+}
+
+.req--ux-img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 8rem auto;
+}
+
+.req--logo {
+  height: 19rem;
+}
+
+.req--subtitle {
+  text-transform: uppercase;
+  margin-top: 4rem;
+}
+
+.req--reqs-list li + li {
+  margin-top: 4rem;
+}
